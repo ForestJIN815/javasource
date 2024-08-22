@@ -15,14 +15,12 @@ public class OperEx3 {
         int top = 5, bottom = 10, height = 7;
         // double result = (top + bottom) * height / 2.0; // 52.5
         double result = (double) (top + bottom) * height / 2; // 52.5
-        System.out.printf("사다리꼴 넓이 %1f\n", result);
+        System.out.printf("사다리꼴 넓이 %.1f\n", result);
 
         // 변수 num 의 값보다 크면서 가장 가까운 10의 배수에서 변수 num 의 값을 뺀 나머지를 구한 후 출력
         // 예를 들어 24라면 24보다 크면서 가장 가까운 10의 배수는 30 - 24 = 6 이므로 결과 6 이 출력되도록 한다
-        int num = 24
+        int num = 24;
         System.out.println(10 - (num % 10));
-        //////////////////////////////////////  강의로 다시 체크해보기 !!
-    
 
     }
 }

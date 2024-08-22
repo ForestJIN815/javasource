@@ -32,7 +32,7 @@ public class OperEx5 {
         // 자바에서 문자열 생성하는 다양한 방법 때문에 저장되는 위치가 조금 다를 수 있음
         // 문자열의 비교는 == 을 사용하지 않음(결과가 달라질 수 있기 때문에)
         String str1 = "홍길동", str2 = "홍길동";
-        String str3 = new String(original:"홍길동");
+        String str3 = new String("홍길동");
 
         System.out.println("str1 == str2 = " + (str1 == str2));
         System.out.println("str1 == str3 = " + (str1 == str3));
@@ -44,13 +44,6 @@ public class OperEx5 {
         str2 = "Animal";
         System.out.println("str1 == str3 = " + str1.equals(str2));
         System.out.println("str1 == str3 = " + str1.equalsIgnoreCase(str2));
-
-
-        /////////////////// 이것도 값이 안 나오고 에러가 뜸... 강의 체크!!
-
-    
-
-
 
     }
 }
