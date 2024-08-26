@@ -15,7 +15,7 @@ public class switchEx3 {
         System.out.print("가위(1),바위(2),보(3) 중 하나를 숫자로 입력 >> ");
         int user = sc.nextInt();
 
-        // 3(컴) 보자기 / 2(user 바위)
+        // 3(컴): 보자기 / 2(user): 바위
 
         switch (user - computer) {
             case 2:

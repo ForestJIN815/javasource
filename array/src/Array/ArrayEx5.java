@@ -44,5 +44,3 @@ public class ArrayEx5 {
         }
     }
 }
-
-////////////// 에러 에러

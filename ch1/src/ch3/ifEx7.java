@@ -18,7 +18,6 @@ public class ifEx7 {
         int num3 = sc.nextInt();
 
         int min = num1;
-        // 이렇게 기입하는게 맞는지 ... 강의 체크!
 
         if (min > num2) {
             min = num2;
@@ -31,7 +30,7 @@ public class ifEx7 {
         System.out.println("제일 작은 수는 : " + min);
 
         // 제일 큰 수 출력
-        
+
         int max = num1;
 
         if (max < num2) {

@@ -2,7 +2,7 @@ package ch3;
 
 public class SwitchEx1 {
     public static void main(String[] args) {
-        // swith : if~ else if ~ else 대체
+        // swith : if ~ else if ~ else 대체
 
         // switch (char or String or int) {
         // case value:

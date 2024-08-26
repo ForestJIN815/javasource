@@ -11,13 +11,15 @@ public class SwitchEx4 {
         // 입력받은 숫자와 연산자를 이용해서 연산 후 결과 출력
         // 3 * 5 = 15
 
-        System.out.println("연산자(+,-,*,/,%) 입력 >> ");
+        System.out.println("연산자( +, -, *, /, % ) 입력 >> ");
         String op = sc.nextLine();
 
         // 두 개의 숫자 입력받기
         System.out.println("첫번째 수 입력 : ");
+        int num1 = sc.nextInt();
 
-        ////////////////////////// 빼먹은거 있는지 강의 체크!
+        System.out.println("두번째 수 입력 : ");
+        int num2 = sc.nextInt();
 
         int result = 0;
 

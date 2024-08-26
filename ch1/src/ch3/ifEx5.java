@@ -4,16 +4,15 @@ import java.util.Scanner;
 
 public class ifEx5 {
     public static void main(String[] args) {
-        // 근무 시간에 따른 임금 계산
+        // 근무시간에 따른 임금 계산
         // 근무시간 입력받기
         // 8 시간까지 시간당 기본임금(10000) 제공
-        // 초과근무시간은 시간당 기본임금 1.5베 제공
+        // 초과근무시간은 시간당 기본임금 1.5배 제공
 
         int rate = 10000, pay = 0;
-        // (pay = 0) ??????????????????????????
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("근무 시간 입력 >> ");
+        System.out.print("근무시간 입력 >> ");
 
         int hours = sc.nextInt();
 
@@ -25,9 +24,10 @@ public class ifEx5 {
             pay = rate * hours;
         }
 
-        System.out.printf("근무 시간 : %d, 임금 : %d\n", hours, pay);
+        System.out.printf("근무시간: %d, 임금: %d\n", hours, pay);
 
         sc.close();
+
     }
 
 }

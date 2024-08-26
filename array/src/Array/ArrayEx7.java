@@ -29,5 +29,3 @@ public class ArrayEx7 {
         System.out.println(Arrays.toString(numArr));
     }
 }
-
-////////////////////////////// 에러 에러 !! -----------> 고쳐진 것 같기도 !
