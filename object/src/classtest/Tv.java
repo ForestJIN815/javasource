@@ -7,6 +7,7 @@ public class Tv {
     private int channel; // 채널 : 번호
     private boolean power; // 전원상태 : true(on) / false(off)
     private String company; // 제조사 : 삼성, LG
+    /* 멤버변수 */
 
     // 생성자
     // 클래스 이름(){}
@@ -19,6 +20,7 @@ public class Tv {
         this.channel = channel;
         this.power = power;
         this.company = company;
+        /* 지역변수 (중괄호 안에 선언한 것들) */
     }
 
     // 전원을 켠다 / 끈다
