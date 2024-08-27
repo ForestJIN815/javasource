@@ -8,8 +8,10 @@ package classtest;
 
 // 객체 : 사물 또는 개념
 
+/* Car 클래스 */
 public class Car {
 
+    /* 필드 영역 */
     // 특징(속성) => 필드(변수로 작성)
     // 제조사, 모델, 색상, 최대속도
     String company;
@@ -17,6 +19,7 @@ public class Car {
     String color;
     int maxSpeed;
 
+    /* 메소드 영역 */
     // 기능(동작) => 메소드
     void foward() {
         System.out.println("전진한다.");
