@@ -15,7 +15,7 @@ public class Car {
     String company;
     String model;
     String color;
-    String maxSpeed;
+    int maxSpeed;
 
     // 기능(동작) => 메소드
     void foward() {

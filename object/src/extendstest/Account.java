@@ -1,4 +1,4 @@
-package classtest;
+package extendstest;
 
 public class Account {
     private String accountNo; // 계좌번호(accountNo) : 101-11-12345
@@ -45,3 +45,7 @@ public class Account {
 }
 
 /////////////////////// 체크해보기!
+
+////////// [ 메모장 ]
+////////// 은행계좌
+////////// 은행계좌 + 체크카드

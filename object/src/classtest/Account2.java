@@ -1,11 +1,11 @@
 package classtest;
 
-public class Account {
+public class Account2 {
     private String accountNo; // 계좌번호(accountNo) : 101-11-12345
     private String owner; // 계좌주(owner) : 홍길동
     private int balance; // 잔액(balance) : 1000000 ----> 체크 얼마?
 
-    public Account(String accountNo, String owner, int balance) {
+    public Account2(String accountNo, String owner, int balance) {
         this.accountNo = accountNo;
         this.owner = owner;
         this.balance = balance;
@@ -40,6 +40,12 @@ public class Account {
 
     public String getOwner() {
         return owner;
+    }
+
+    ///////////// (아래값은) 오른쪽 마우스 - Generate to String
+    @Override
+    public String toString() {
+        return "Account2 [accountNo=" + accountNo + ", owner=" + owner + ", balance=" + balance + "]";
     }
 
 }

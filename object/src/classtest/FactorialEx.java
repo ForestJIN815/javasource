@@ -2,7 +2,7 @@ package classtest;
 
 public class FactorialEx {
     public static void main(String[] args) {
-        System.out.println(factorial(n:4));
+        System.out.println(factorial(4));
 
     }
 
