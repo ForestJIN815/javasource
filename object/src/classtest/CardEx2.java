@@ -1,5 +1,7 @@
 package classtest;
 
+import java.util.Arrays;
+
 public class CardEx2 {
     public static void main(String[] args) {
         // Card 인스턴스를 10개 생성해야 한다면?
@@ -39,9 +41,9 @@ public class CardEx2 {
         // new Card("diamond", 1),
         // };
 
-        card card1 = new Card("spade", 1);
-        card card2 = new Card("heart", 1);
-        card card3 = new Card("diamond", 1);
+        Card card1 = new Card("spade", 1);
+        Card card2 = new Card("heart", 1);
+        Card card3 = new Card("diamond", 1);
 
         Card cards[] = { card1, card2, card3 };
 

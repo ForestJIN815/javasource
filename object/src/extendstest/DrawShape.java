@@ -12,9 +12,10 @@ public class DrawShape {
         Triangle triangle = new Triangle(p);
 
         // Point p1 = new Point(150, 150);
-        Circle circle = new Circle(new Point(150, 150), r:50); /////// 체크
+        Circle circle = new Circle(new Point(150, 150), 50); /////// 체크
 
         triangle.draw();
-        circle.draw();;
+        circle.draw();
+        ;
     }
 }

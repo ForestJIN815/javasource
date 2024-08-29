@@ -1,0 +1,9 @@
+API Documentation
+- API : Application Programming Interface
+        라이브러리
+
+- JAVA SE(Standard Edition) : 데스크탑 어플리케이션 개발 // 우리가 현재 사용하고 있는 것은 이것!
+-      EE(Enterprise Edition) : 기업용 어플리케이션 개발 => 웹 개발
+
+
+

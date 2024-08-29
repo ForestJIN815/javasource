@@ -26,5 +26,3 @@ public class CheckingAccount extends Account {
         return withdraw(amount);
     }
 }
-
-//////////// 수정

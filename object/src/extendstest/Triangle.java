@@ -13,8 +13,7 @@ public class Triangle extends Shape {
 
     @Override
     void draw() {
-        System.out.printf("[p1 = %s, p2 = %s, color = %s]\n", p[0].getXY(), p[1].getXY(), p[2].getXY(), getColor()); /////////////////// 자동완성기능(확인해보기)
-
+        System.out.printf("[p1 = %s, p2 = %s, color = %s]\n", p[0].getXY(), p[1].getXY(), p[2].getXY(), getColor());
     }
 
 }

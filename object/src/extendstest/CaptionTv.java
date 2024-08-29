@@ -10,7 +10,7 @@ public class CaptionTv {
     }
 
     public boolean isCaption() {
-
+        return caption;
     }
 
     private void setCaption(boolean caption) {

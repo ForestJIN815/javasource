@@ -14,6 +14,6 @@ public class Circle extends Shape {
 
     @Override
     void draw() {
-        System.out.printf("[center = (%d, %d), r = %d, color = %s]\n", center.x, center.y, r, getColor()); /////////////////////////////////// 체크(확인해보기)
+        System.out.printf("[center = (%d, %d), r = %d, color = %s]\n", center.x, center.y, r, getColor());
     }
 }

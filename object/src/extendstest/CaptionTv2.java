@@ -24,10 +24,6 @@ public class CaptionTv2 extends Tv2 {
     }
 
     /////////////////////////////////////////////////////////////////////
-    public CaptionTv2() {
-        super(); // 부모의 default 생성자 호출
-    }
-
     void displayCaption(String text) {
         if (caption) {
             System.out.println(text);
