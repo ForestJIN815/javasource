@@ -1,9 +1,8 @@
 package api;
 
-import poly.childEx;
+import java.util.Arrays;
 
 public class StringEx {
-    private static Object Arrays;
 
     public static void main(String[] args) {
         // java.lang.String
@@ -69,8 +68,9 @@ public class StringEx {
         /// ~ 없는 문자를 넣을 경우, -1
 
         // 6. lastindexOf : 문자열 끝에서부터 찾기
-        System.out.println("lastindexOf(e) : " + str1.lastindexOf("e"));
-        System.out.println("lastindexOf(Java) : " + str1.lastindexOf("Java"));
+        System.out.println("lastindexOf(e) : " + str1.lastIndexOf("e"));
+
+        System.out.println("lastindexOf(Java) : " + str1.lastIndexOf("Java"));
 
         // 7. contains(문자열) : 문자열이 포함되어 있는지 확인 후 true/false
         /// 포함되어 있으면 true, (false 포함X)

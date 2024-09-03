@@ -1,6 +1,7 @@
 package api;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -42,7 +43,12 @@ public class ListEx {
             System.out.println(object);
         }
 
-        list.sort(Comparator.reverseOrder()); /// void 라 호출만 할 수 있다, 내림차순 정렬이다
+        // list.sort(Comparator.reverseOrder()); // 내림차순 ///~ void 라 호출만 할 수 있다, 내림차순
+        // 정렬이다
+        // list.sort(Comparator.naturalOrder()); // 오름차순
+        // java.util.Collections : Collection 과 관련된 유용한 메소드 제공
+        // Collections.sort(list); // 오름차순
+        Collections.sort(list, Comparator.reverseOrder()); // 내림차순 ///~ sort?
         System.out.println(list);
 
     }

@@ -21,5 +21,12 @@ public class ListEx2 {
 
         System.out.println(list);
 
+        /* 향상된 for문 사용 */
+        for (Member member : list) {
+            String id = member.getId();
+            String name = member.getName();
+
+        }
+
     }
 }
